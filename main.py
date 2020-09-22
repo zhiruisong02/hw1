@@ -23,10 +23,10 @@ elif Grade1 == "D":
   Gradepoint1 = 1.0 
 else:
   Gradepoint1 = 0.0
-Gredit1 = input("Enter your course 1 credit: ")
+Credit1 = input("Enter your course 1 credit: ")
 Gradepoint1 = float(Gradepoint1)
-Gredit1 = float(Gredit1)
-Grade1 = float((Gradepoint1)*(Gredit1))/ (Gredit1)
+Credit1 = float(Credit1)
+Grade1 = float((Gradepoint1)*(Credit1))/ (Credit1)
 print(f"Grade point for course 1 is: {str(Grade1)}")
 Grade2 = input("Enter your course 2 letter grade: ")
 if Grade2 == "A":
@@ -47,10 +47,10 @@ elif Grade2 == "D":
   Gradepoint2 = 1.0 
 else:
   Gradepoint2 = 0.0
-Gredit2 = input("Enter your course 2 credit: ")
+Credit2 = input("Enter your course 2 credit: ")
 Gradepoint2 = float(Gradepoint2)
-Gredit2 = float(Gredit2)
-Grade2 = float((Gradepoint2)*(Gredit2))/ (Gredit2)
+Credit2 = float(Credit2)
+Grade2 = float((Gradepoint2)*(Credit2))/ (Credit2)
 print(f"Grade point for course 2 is: {str(Grade2)}")
 Grade3 = input("Enter your course 3 letter grade: ")
 if Grade3 == "A":
@@ -71,10 +71,10 @@ elif Grade3 == "D":
   Gradepoint3 = 1.0 
 else:
   Gradepoint3 = 0.0
-Gredit3 = input("Enter your course 3 credit: ")
+Credit3 = input("Enter your course 3 credit: ")
 Gradepoint3 = float(Gradepoint3)
-Gredit3 = float(Gredit3)
-Grade3 = float((Gradepoint3)*(Gredit3))/ (Gredit3)
+Credit3 = float(Credit3)
+Grade3 = float((Gradepoint3)*(Credit3))/ (Credit3)
 print(f"Grade point for course 3 is: {str(Grade3)}")
-GPA = float((Gradepoint1)*(Gredit1) + (Gradepoint2)*(Gredit2) + (Gradepoint3) * (Gredit3))/((Gredit1) + (Gredit2) + (Gredit3))
+GPA = float((Gradepoint1)*(Credit1) + (Gradepoint2)*(Credit2) + (Gradepoint3) * (Credit3))/((Credit1) + (Credit2) + (Credit3))
 print(f"Your GPA is: {str(GPA)}")
